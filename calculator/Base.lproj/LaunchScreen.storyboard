@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iWY-Np-reF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconCalculator-1" translatesAutoresizingMaskIntoConstraints="NO" id="Bp3-QJ-btX">
+                                <rect key="frame" x="87.5" y="265" width="200" height="137"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="QfH-fD-L6l"/>
+                                    <constraint firstAttribute="width" secondItem="Bp3-QJ-btX" secondAttribute="height" multiplier="60:41" id="ufA-TH-xh9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="جميع الحقوق محفوظة © 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXG-fY-dzs">
+                                <rect key="frame" x="16" y="623.5" width="343" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Djamal Soft" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJ2-qO-jNz">
+                                <rect key="frame" x="18" y="584.5" width="339" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18431372549019609" green="0.0" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mXG-fY-dzs" firstAttribute="leading" secondItem="kSO-jT-QlT" secondAttribute="leading" constant="16" id="3Fl-9A-hgl"/>
+                            <constraint firstItem="Bp3-QJ-btX" firstAttribute="centerY" secondItem="iWY-Np-reF" secondAttribute="centerY" id="DIg-so-CaG"/>
+                            <constraint firstItem="kSO-jT-QlT" firstAttribute="trailing" secondItem="mJ2-qO-jNz" secondAttribute="trailing" constant="18" id="FoJ-6I-YHy"/>
+                            <constraint firstItem="Bp3-QJ-btX" firstAttribute="centerX" secondItem="iWY-Np-reF" secondAttribute="centerX" id="HB8-lw-q72"/>
+                            <constraint firstItem="mJ2-qO-jNz" firstAttribute="leading" secondItem="kSO-jT-QlT" secondAttribute="leading" constant="18" id="S8T-Jv-aVK"/>
+                            <constraint firstItem="kSO-jT-QlT" firstAttribute="bottom" secondItem="mXG-fY-dzs" secondAttribute="bottom" constant="16" id="gkX-DJ-Yos"/>
+                            <constraint firstItem="kSO-jT-QlT" firstAttribute="trailing" secondItem="mXG-fY-dzs" secondAttribute="trailing" constant="16" id="mES-HA-ulR"/>
+                            <constraint firstItem="mXG-fY-dzs" firstAttribute="top" secondItem="mJ2-qO-jNz" secondAttribute="bottom" constant="18" id="w3V-so-gia"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kSO-jT-QlT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IconCalculator-1" width="512" height="512"/>
+    </resources>
+</document>
